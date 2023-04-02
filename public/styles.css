@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    font-size: 1em;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+ul{
+    display: flex;
+margin-top: 0%;
+
+}
+
+.btn{
+    display: flex;
+  
+}
+li{
+    list-style: none
+}
+a{
+
+   text-decoration: none;
+margin-top: 10px;
+   color: black;
+   font-family: 'Josefin Sans', sans-serif;
+}
+li{
+    padding-left: 24px;
+   
+}
+nav ul button{
+
+    font-size: 1rem;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: 0.3rem;
+
+ 
+
+}
+.signin{
+    background-color: white;
+    color: black;
+}
+hr{
+    opacity: 0.6;
+}
+.findStore{
+    color: black;
+}
+
+/* /navbar
+landingpage */
+
+.hero{
+    display: flex;
+    background-color: #1e3932;
+   color: white;
+   padding: 5% 0;
+   margin: 3% 0;
+   text-align: center;
+   justify-content: space-between;
+}
+.heroimg{
+    width: 50%;
+    margin-right: 70px;
+}
+h2{
+    text-align: center;
+ letter-spacing: 1px;
+}
+button{
+    border-radius: 20px;
+    padding: 7px 16px;
+}
+.btn-3{
+    border-radius: 20px;
+    background-color: #1e3932;
+    color: white;
+ 
+    border-color: white;
+}
+
+.btn-3 a{
+    color: white;
+}
+.heroContent{
+    margin-right: 5%;
+}
+.container2-img{
+    width: 50%;
+}
+.container2{
+    background-color:  #fa91aa;
+    display: flex;
+    color: #1e3932;
+    width: 100%;
+}
+.container2-content{
+    margin: 0 auto;
+   
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 24px 32px;
+    margin: 24px 32px;
+ 
+}
+.container-header{
+    font-weight: 900;
+    margin-top: 24px;
+    letter-spacing: 1px;
+}
+p{
+    font-size:1.75rem ;
+}
+.nobtn{
+    background-color: #fa91aa;
+}
+.container3{
+    background-color: #007042;
+    display: flex;
+margin: 3% 0;
+    text-align: center;
+    justify-content: space-between;
+}
+.content3{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 40px 32px;
+}
+.heroimg2{
+    width: 50%;
+    margin-right: 70px;
+    padding: 5% 0;
+}
+footer{
+    color :black;
+    display: flex;
+
+}
+footer ul {
+   flex-direction: column;
+}
+footer ul li{
+    padding: 5px;
+    color: grey;
+}
+@media only screen and (max-width: 800px){
+nav ul li  {
+    display: none;
+}
+ul{
+    width: 10em;
+    height: 1em;
+}
+.btn{
+    display: none;
+}
+.logo{
+    width: 6rem;
+    margin-top: 0em;
+height: 3rem;
+padding: 3px;
+}
+
+#check:checked ~ nav ul li{
+    display: flex;
+    color: black;
+flex-direction: column;
+padding: 1em;
+font-size: 1em;
+background-color: white;
+position: relative;
+z-index: 999;
+transition: 4s ease;
+}
+nav ul{
+    display: block;
+   
+    width: 500%;
+}
+
+.cross{
+    height: 20px;
+    width: 20px;
+}
+#check:checked ~ nav .img-menu{
+    display: none;
+}
+
+}
+.img-menu{
+    width: 30px;
+    height: 30px;
+   display: block;
+   position: relative;
+   right: 0%;
+   left: 390%;
+}
+@media  screen and (min-width: 800px){
+    .cross{
+        display: none;
+    }
+    .img-menu{
+        display: none;
+    }
+}
+
+#check{
+    display: none;
+}
